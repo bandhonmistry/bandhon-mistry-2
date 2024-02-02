@@ -30,6 +30,9 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+        *{
+            margin: auto;
+        }
     </style>
 </head>
 
@@ -176,8 +179,9 @@
         </section>
         <!-- card section -->
         <section>
-            <div class="sm:flex-row lg:flex gap-8 my-6 ">
-                <div class="card w-96 lg:w-1/3 bg-local shadow-xl image-full">
+          <div class="">
+            <div class="flex sm:flex-row lg:flex-col gap-8 m-6 ">
+                <div class="card w-96  bg-local shadow-xl image-full">
                     <figure><img src="Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Junior Program</h2>
@@ -199,7 +203,7 @@
                 </div>
             </div>
             <div>
-                <div class="card sm:w-96 lg:w-3/4  bg-base-100 shadow-xl image-full text-base">
+                <div class="card sm:w-96 lg:w-3/4 m-6 bg-base-100 shadow-xl image-full text-base">
                     <figure><img src="Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Professional program</h2>
@@ -210,6 +214,7 @@
                     </div>
                 </div>
             </div>
+          </div>
         </section>
     </header>
     <main>
@@ -432,7 +437,7 @@
         </section>
         <!-- form section -->
         <section>
-            <div class="gap-4 flex items-center">
+            <div class="gap-4 flex sm:flex-col lg:flex-row items-center">
                 <div class="bg-neutral-200 p-8 rounded-xl ">
                     <div class="bg-neutral-100 p-5 rounded-xl m-3">
                         <img src="Images/Group 1171275317.png" alt="">
@@ -452,8 +457,8 @@
 
                 </div>
                 <div>
-                    <div class="p-6 gap-4 bg-neutral-200 rounded-xl flex-col lg:flex-row">
-                        <div class="gap-3 flex ">
+                    <div class="p-6 gap-6 bg-neutral-200 rounded-xl flex-col lg:flex-row">
+                        <div class="gap-3 flex sm:flex-col lg:flex-row">
                             <div>
                                 <p>Your Name</p>
                                 <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs" />
@@ -463,7 +468,7 @@
                                 <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
                             </div>
                         </div>
-                        <div class="gap-3 flex">
+                        <div class="gap-3 flex sm:flex-col lg:flex-row">
                             <div>
                                 <p>Subject</p>
                                 <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
@@ -478,7 +483,7 @@
                             <textarea class="textarea textarea-primary" placeholder="Enter your message"></textarea>
                         </div>
                     </div>
-                    <div class="my-5 w-52">
+                    <div class="my-5 w-full">
                         <button class="bg-[#ff4240] btn border-none text-white">Send Message</button>
                     </div>
                 </div>
@@ -486,6 +491,7 @@
         </section>
     </main>
     <footer>
+        <!-- footer srction 1 -->
 
     </footer>
 </body>
