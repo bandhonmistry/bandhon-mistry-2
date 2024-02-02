@@ -30,7 +30,8 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
-        *{
+
+        * {
             margin: auto;
         }
     </style>
@@ -82,21 +83,23 @@
                 <div class="carousel w-full">
                     <div id="slide1" class=" carousel-item relative w-full">
                         <img src="Images/1.png" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div class="absolute flex-1 justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
                             <a href="#slide3" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
+
                         </div>
                     </div>
                     <div id="slide2" class="carousel-item relative w-full">
-                        <img src="Images/2.png" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex-1 justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" class="btn btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide3" class="carousel-item  relative w-full">
-                        <img src="Images/3.png" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex-1 justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide1" class="btn btn-circle">❯</a>
                         </div>
@@ -107,7 +110,7 @@
         </section>
         <!-- text section -->
         <section>
-            <div class="bg-black p-4 text-white w-90 lg:w-auto  rounded-2xl">
+            <div class="bg-black p-4 text-white w-auto  rounded-2xl">
                 <h2 class="text-xl font-extrabold">
                     Meet all the heroes from the field
                 </h2>
@@ -179,42 +182,40 @@
         </section>
         <!-- card section -->
         <section>
-          <div class="">
-            <div class="flex sm:flex-row lg:flex-col gap-8 m-6 ">
-                <div class="card w-96  bg-local shadow-xl image-full">
-                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Junior Program</h2>
-                        <p>Held every two years, the Junior World Cup is a spectacle of new talent.</p>
-                        <div class="card-actions ">
-                            <button class="bg-[#ff4240] btn border-none text-white">Register Now!</button>
+            <div class="items-center">
+                <div class="flex sm:flex-col lg:flex-row gap-4 m-6 items-center">
+                    <div class="card w-96  bg-local shadow-xl image-full">
+                        <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Junior Program</h2>
+                            <p>Held every two years, the Junior World Cup is a spectacle of new talent.</p>
+                            <div class="card-actions ">
+                                <button class="bg-[#ff4240] btn border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl image-full text-base ">
+                        <figure><img src="Images/3.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Teenager Program</h2>
+                            <p>Held every two years, the Junior World Cup is a spectacle of new talent.</p>
+                            <div class="card-actions">
+                                <button class="bg-[#ff4240] btn border-none text-white">Register Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 lg:w-1/3 bg-base-100 shadow-xl image-full text-base ">
-                    <figure><img src="Images/3.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Teenager Program</h2>
-                        <p>Held every two years, the Junior World Cup is a spectacle of new talent.</p>
-                        <div class="card-actions">
-                            <button class="bg-[#ff4240] btn border-none text-white">Register Now!</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card sm:w-96 lg:w-3/4 m-6 bg-base-100 shadow-xl image-full text-base">
+                <div class="card sm:w-96 lg:w-auto m-6 bg-base-100 shadow-xl image-full text-base">
                     <figure><img src="Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Professional program</h2>
                         <p>Held every two years, the Junior World Cup is a spectacle of new talent.</p>
                         <div class="card-actions ">
-                            <button class="bg-[#ff4240] btn border-none text-white">Buy Now</button>
+                            <button class="bg-[#ff4240] btn border-none text-white">Register Now</button>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
         </section>
     </header>
     <main>
@@ -242,7 +243,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -262,7 +263,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -285,7 +286,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -305,7 +306,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -328,7 +329,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -348,7 +349,7 @@
                                 repudiandae et a id nisi.</p>
                             <div class="flex">
                                 <div>
-                                    <h2 class="text-[#ff4240] "> price - $22.00</h2>
+                                    <h2 class="text-[#ff4240] font-extrabold "> price - $22.00</h2>
                                 </div>
                                 <div class="flex">
                                     <img class="w-6 h-6" src="Images/shop icon.png" alt="">
@@ -461,21 +462,25 @@
                         <div class="gap-3 flex sm:flex-col lg:flex-row">
                             <div>
                                 <p>Your Name</p>
-                                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs" />
+                                <input type="text" placeholder="Enter your full name"
+                                    class="input input-bordered w-full max-w-xs" />
                             </div>
                             <div>
                                 <p>Your Email</p>
-                                <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
+                                <input type="text" placeholder="Enter your email"
+                                    class="input input-bordered w-full max-w-xs" />
                             </div>
                         </div>
                         <div class="gap-3 flex sm:flex-col lg:flex-row">
                             <div>
                                 <p>Subject</p>
-                                <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
+                                <input type="text" placeholder="Enter your subject"
+                                    class="input input-bordered w-full max-w-xs" />
                             </div>
                             <div>
                                 <p>Phone Number</p>
-                                <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
+                                <input type="text" placeholder="Enter your phone number"
+                                    class="input input-bordered w-full max-w-xs" />
                             </div>
                         </div>
                         <div>
@@ -483,7 +488,7 @@
                             <textarea class="textarea textarea-primary" placeholder="Enter your message"></textarea>
                         </div>
                     </div>
-                    <div class="my-5 w-full">
+                    <div class="my-5 w-100%">
                         <button class="bg-[#ff4240] btn border-none text-white">Send Message</button>
                     </div>
                 </div>
@@ -492,7 +497,70 @@
     </main>
     <footer>
         <!-- footer srction 1 -->
-
+        <section>
+            <div class="footer footer-center mt-8 p-10 bg-base-200 text-base-content rounded-xl">
+                <nav class="grid grid-flow-col gap-4">
+                    <a class="link link-hover text-2xl font-extrabold ">Social Media</a>
+                </nav>
+                <nav>
+                    <div class="grid grid-flow-col gap-4">
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="fill-current">
+                                <path
+                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                                </path>
+                            </svg></a>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="fill-current">
+                                <path
+                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                                </path>
+                            </svg></a>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="fill-current">
+                                <path
+                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- footer section 2 -->
+        <section>
+            <div
+                class="footer grid-rows-1 sm:grid-flow-row lg:grid-flow-col mt-10 p-10 bg-neutral text-neutral-content">
+                <nav>
+                    <h6 class="text-2xl text-white font-extrabold ">Get In Touch</h6>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <h6 class=" text-2xl text-white font-extrabold">Company</h6>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 class=" text-2xl text-white font-extrabold">Legal</h6>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+                <nav>
+                    <h6 class=" text-2xl text-white font-extrabold">Social</h6>
+                    <a class="link link-hover">Twitter</a>
+                    <a class="link link-hover">Instagram</a>
+                    <a class="link link-hover">Facebook</a>
+                    <a class="link link-hover">Github</a>
+                </nav>
+            </div>
+        </section>
     </footer>
 </body>
 
